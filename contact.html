@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Imogen's Vision</title>
+    <meta name="description" content="Get in touch with Imogen to book a consultation or ask a question.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Main navigation">
+        <div class="container">
+            <a href="index.html" class="nav__brand">Imogen's Vision</a>
+            <button class="nav__toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav__links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav__links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="work-with-imogen.html">Work With Imogen</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p class="subtitle">Whether you have a question or you're ready to get started, Imogen would love to hear from you.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section">
+        <div class="container" style="max-width: 600px;">
+            <form action="#" method="post" novalidate>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Tell Imogen a little about what you're looking for..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Other Ways to Connect -->
+    <section class="section section--green">
+        <div class="container text-center">
+            <h2 class="mb-md">Other Ways to Connect</h2>
+            <p class="mb-md">Social media profiles coming soon. In the meantime, use the form above or email directly.</p>
+            <p><strong>Email:</strong> hello@imogensvision.co.uk</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__brand">Imogen's Vision</div>
+            <div class="footer__links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="work-with-imogen.html">Work With Imogen</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <p class="footer__disclaimer">Imogen's Vision provides motivational coaching. It does not replace medical, nutritional or psychological advice.</p>
+            <p class="footer__copy">&copy; 2025 Imogen's Vision. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

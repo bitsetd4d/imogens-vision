@@ -3,14 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imogen's Vision</title>
+    <title>Imogen's Vision — Motivational Coaching</title>
+    <meta name="description" content="Motivational coaching to help you build confidence, improve habits and move forward. Practical support for lasting lifestyle change.">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 </head>
 <body>
-    <main>
-        <h1>Imogen's Vision</h1>
-        <p>Coming soon ✨</p>
-    </main>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Main navigation">
+        <div class="container">
+            <a href="index.html" class="nav__brand">Imogen's Vision</a>
+            <button class="nav__toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav__links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav__links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="work-with-imogen.html">Work With Imogen</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Practical motivation for lasting lifestyle change</h1>
+            <p class="subtitle">Motivational coaching to help you build confidence, improve habits and take realistic steps towards a healthier, happier life.</p>
+            <div class="hero__actions">
+                <a href="contact.html" class="btn btn--primary">Get in Touch</a>
+                <a href="work-with-imogen.html" class="btn btn--outline">How It Works</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section">
+        <div class="container two-col">
+            <div>
+                <h2>Meet Imogen</h2>
+                <p class="mb-md">Imogen is the founder of Imogen's Vision and works as a motivational coach. She supports people with encouragement, confidence-building and practical habit change, helping them take realistic steps towards healthier long-term routines.</p>
+                <p>Her approach is warm, positive and grounded in real life — not quick fixes or unrealistic goals, but steady progress that sticks.</p>
+            </div>
+            <div class="two-col__image">
+                <img src="assets/placeholder-portrait.svg" alt="Imogen — Motivational Coach" width="500" height="500">
+            </div>
+        </div>
+    </section>
+
+    <!-- What She Helps With -->
+    <section class="section section--green">
+        <div class="container">
+            <div class="section__header">
+                <h2>What Imogen Helps With</h2>
+                <p>Support designed around you — wherever you are on your journey.</p>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card__icon">💪</div>
+                    <h3>Confidence Building</h3>
+                    <p>Helping you believe in your ability to change and grow, one step at a time.</p>
+                </div>
+                <div class="card">
+                    <div class="card__icon">🌱</div>
+                    <h3>Habit Support</h3>
+                    <p>Building small, realistic habits that fit your life and lead to lasting results.</p>
+                </div>
+                <div class="card">
+                    <div class="card__icon">🎯</div>
+                    <h3>Motivation &amp; Focus</h3>
+                    <p>Staying motivated when progress feels slow, and keeping your goals in sight.</p>
+                </div>
+                <div class="card">
+                    <div class="card__icon">🤝</div>
+                    <h3>Accountability</h3>
+                    <p>A supportive, encouraging presence to help you stay on track between milestones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Work With Imogen -->
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h2>Why Work With Imogen?</h2>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Authentic &amp; Relatable</h3>
+                    <p>Imogen connects with people through genuine warmth and understanding — no jargon, no judgement.</p>
+                </div>
+                <div class="card">
+                    <h3>Progress, Not Perfection</h3>
+                    <p>The focus is always on realistic, achievable steps — not overnight transformations.</p>
+                </div>
+                <div class="card">
+                    <h3>Long-Term Support</h3>
+                    <p>Not just one-off inspiration, but ongoing motivation to help you keep going when it matters most.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote -->
+    <section class="section section--dark">
+        <div class="container quote-block">
+            <blockquote>"You don't have to change everything overnight. Small steps, repeated consistently, can change your direction."</blockquote>
+            <cite>— Imogen</cite>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+        <div class="container">
+            <h2>Ready to Take the First Step?</h2>
+            <p>Get in touch to find out how Imogen can support you on your journey.</p>
+            <a href="contact.html" class="btn btn--primary">Contact Imogen</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__brand">Imogen's Vision</div>
+            <div class="footer__links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="work-with-imogen.html">Work With Imogen</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <p class="footer__disclaimer">Imogen's Vision provides motivational coaching. It does not replace medical, nutritional or psychological advice.</p>
+            <p class="footer__copy">&copy; 2025 Imogen's Vision. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>

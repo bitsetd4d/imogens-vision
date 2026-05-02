@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="16" fill="#d6e5d0"/>
+  <!-- Two figures suggesting a coaching conversation -->
+  <circle cx="150" cy="120" r="30" fill="#a8c9a0"/>
+  <rect x="125" y="155" width="50" height="55" rx="25" fill="#a8c9a0"/>
+  <circle cx="270" cy="120" r="30" fill="#b5d1ac"/>
+  <rect x="245" y="155" width="50" height="55" rx="25" fill="#b5d1ac"/>
+  <!-- Speech/connection line -->
+  <path d="M185 135 Q210 115 235 135" stroke="#5a7d54" stroke-width="2" fill="none" stroke-dasharray="4 4" opacity="0.5"/>
+  <text x="200" y="260" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5a7d54" opacity="0.8">Photo coming soon</text>
+</svg>
