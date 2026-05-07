@@ -554,6 +554,25 @@ body { padding-top: var(--nav-height); }
 .mb-lg { margin-bottom: var(--space-lg); }
 .mb-xl { margin-bottom: var(--space-xl); }
 
+/* ===== Contact Card ===== */
+.contact-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl) var(--space-xl);
+    box-shadow: var(--shadow-md);
+}
+
+.contact-icon {
+    font-size: 3rem;
+    margin-bottom: var(--space-md);
+}
+
+.contact-email {
+    margin-top: var(--space-md);
+    font-size: 0.95rem;
+    color: var(--warm-grey);
+}
+
 /* ===== Focus Styles (Accessibility) ===== */
 a:focus-visible,
 button:focus-visible,
