@@ -452,6 +452,23 @@ body { padding-top: var(--nav-height); }
     color: var(--white);
 }
 
+.footer__social {
+    display: flex;
+    gap: var(--space-md);
+    justify-content: center;
+}
+
+.footer__social-link {
+    color: var(--cream-dark);
+    transition: color 0.2s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+}
+.footer__social-link:hover {
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
 .footer__disclaimer {
     font-size: 0.8rem;
     color: var(--warm-grey);
